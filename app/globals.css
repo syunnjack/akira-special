@@ -67,3 +67,12 @@ footer>div { display:flex; align-items:center; gap:6px; } footer b { color:var(-
 @media(max-width:520px){.input-zone{padding:22px}.practice-button{min-height:145px}.practice-button strong{font-size:55px}.plus{display:none}.buttons{gap:8px}.stats{grid-template-columns:1fr}.stats article{min-height:105px;border-right:0;border-bottom:1px solid var(--line)}.stats strong{margin-top:20px}.hero p{font-size:12px}.command-strip{gap:8px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
 
+/* Beginner-first arcade controller setup */
+.connection{margin-left:auto;color:#777;font-weight:700;letter-spacing:.06em}.connection.online{color:var(--acid)}
+.hero h1{font-size:clamp(46px,6.5vw,84px);line-height:1;max-width:1000px}.hero .lead{color:#c5c8c1;font-size:15px;max-width:660px;line-height:1.8}
+.start-guide{display:grid;grid-template-columns:repeat(3,1fr) auto;border:1px solid var(--line);margin-bottom:18px;background:#111412}.start-guide>div{padding:18px;display:flex;gap:13px;align-items:center;border-right:1px solid var(--line);opacity:.45}.start-guide>div.active{opacity:1;background:#22291d;box-shadow:inset 0 -3px var(--acid)}.start-guide>div.done{opacity:.8}.start-guide>div.done>b{background:var(--acid);color:#111}.start-guide b{width:28px;height:28px;border:1px solid #666;display:grid;place-items:center;flex:0 0 auto}.start-guide span{display:flex;flex-direction:column;gap:5px}.start-guide strong{font-size:13px}.start-guide small{font-size:10px;color:var(--dim)}.start-guide>button{border:0;background:none;color:var(--acid);padding:14px;font-size:10px;cursor:pointer}
+.command-strip>span:first-child{color:var(--acid);font-weight:900;letter-spacing:.08em}.command-strip>strong{font-size:13px}.command-strip small{font:700 12px sans-serif}
+.coach{display:flex;align-items:center;gap:15px;padding:15px 18px;margin-bottom:22px;border-left:4px solid #555;background:#111}.coach>span{font-weight:900;color:#999}.coach>strong{font-size:16px}.coach.go{border-color:var(--acid);background:#29301f}.coach.go>span,.coach.go>strong{color:var(--acid)}
+.finger-tip{display:flex;gap:10px;margin-top:18px;padding:12px;background:#121512;color:#a7aba4;font-size:12px}.finger-tip b{color:var(--acid)}
+@media(max-width:850px){.start-guide{grid-template-columns:1fr}.start-guide>div{border-right:0;border-bottom:1px solid var(--line)}.connection{font-size:9px}.command-strip>strong{display:none}}
+
