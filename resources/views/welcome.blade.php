@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>1Fリリース練習機｜アケコン入力トレーナー</title>
   <meta name="description" content="PCにアケコンを接続して、格闘ゲームの1フレーム同時押し・リリース技を練習できる専用ツール。K(キック)とG(ガード)を同時に押し、Gだけを1フレームで離す精度をミリ秒単位で計測します。">
-  <link rel="canonical" href="https://akira-special.jp/">
+  <link rel="canonical" href="https://1frame-training.jp/">
   <meta property="og:site_name" content="1Fリリース練習機">
   <meta property="og:type" content="website">
   <meta property="og:title" content="1Fリリース練習機｜アケコン入力トレーナー">
   <meta property="og:description" content="K+G同時押しからGだけを1フレームで離す精度をミリ秒単位で計測する、格闘ゲーム専用の入力練習ツール。">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"1Fリリース練習機","url":"https://akira-special.jp/","applicationCategory":"GameApplication"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"1Fリリース練習機","url":"https://1frame-training.jp/","applicationCategory":"GameApplication"}</script>
 
   @if(config('services.ga4.id'))
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ config('services.ga4.id') }}"></script>
