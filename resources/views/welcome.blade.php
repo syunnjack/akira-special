@@ -10,7 +10,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="1Fリリース練習機｜アケコン入力トレーナー">
   <meta property="og:description" content="K+G同時押しからGだけを1フレームで離す精度をミリ秒単位で計測する、格闘ゲーム専用の入力練習ツール。">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"1Fリリース練習機","url":"https://1frame-training.jp/","applicationCategory":"GameApplication"}</script>
+  <script type="application/ld+json">{"@@context":"https://schema.org","@@type":"WebApplication","name":"1Fリリース練習機","url":"https://1frame-training.jp/","applicationCategory":"GameApplication"}</script>
 
   @if(config('services.ga4.id'))
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ config('services.ga4.id') }}"></script>
@@ -110,9 +110,9 @@
     footer b { color:var(--dim); margin-right:8px; }
     footer button { margin:0; border:1px solid var(--line); padding:8px 12px; }
     footer button.selected { color:var(--acid); border-color:var(--acid); }
-    @media(max-width:850px){ main{padding:0 16px 30px} .hero{padding-top:38px} .workbench,.dashboard{grid-template-columns:1fr} .verdict{border-left:0;border-top:1px solid var(--line)} .stats{order:2} .command-strip small{display:none} .start-guide{grid-template-columns:1fr} .start-guide>div{border-right:0;border-bottom:1px solid var(--line)} .connection{font-size:9px} footer{align-items:flex-start;gap:20px;flex-direction:column} }
-    @media(max-width:520px){ .input-zone{padding:22px} .practice-button{min-height:145px} .practice-button strong{font-size:55px} .plus{display:none} .buttons{gap:8px} .stats{grid-template-columns:1fr} .stats article{min-height:105px;border-right:0;border-bottom:1px solid var(--line)} .stats strong{margin-top:20px} .hero p{font-size:12px} .command-strip{gap:8px} }
-    @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+    @@media(max-width:850px){ main{padding:0 16px 30px} .hero{padding-top:38px} .workbench,.dashboard{grid-template-columns:1fr} .verdict{border-left:0;border-top:1px solid var(--line)} .stats{order:2} .command-strip small{display:none} .start-guide{grid-template-columns:1fr} .start-guide>div{border-right:0;border-bottom:1px solid var(--line)} .connection{font-size:9px} footer{align-items:flex-start;gap:20px;flex-direction:column} }
+    @@media(max-width:520px){ .input-zone{padding:22px} .practice-button{min-height:145px} .practice-button strong{font-size:55px} .plus{display:none} .buttons{gap:8px} .stats{grid-template-columns:1fr} .stats article{min-height:105px;border-right:0;border-bottom:1px solid var(--line)} .stats strong{margin-top:20px} .hero p{font-size:12px} .command-strip{gap:8px} }
+    @@media(prefers-reduced-motion:reduce){*{transition:none!important}}
   </style>
 </head>
 <body>
